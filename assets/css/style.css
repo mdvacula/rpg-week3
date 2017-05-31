@@ -1,0 +1,24 @@
+#heading{
+	color: yellow;
+}
+
+
+#battleArea{
+	background: white;
+}
+
+#charSection{
+	background: white;
+	
+}
+
+#gameStatus{
+	background: white;
+
+}
+
+body{
+	background-image: url("../images/background.jpeg"); 
+	background-repeat: no-repeat;
+	background-size: 100%;
+}

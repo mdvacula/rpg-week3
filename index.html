@@ -17,7 +17,16 @@
 	<body>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-12">
+					<div class="page-header text-center" id="heading">
+						<h1>Star Wars RPG</h1>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+				<div class="col-md-6" id="charSection">
 					<h3>Character Selection</h3>
 					<div class="row" id="characters">
 					<!-- Characters get added here -->
@@ -25,7 +34,7 @@
 
 					</div>
 				</div>	
-				<div class="col-md-6">
+				<div class="col-md-6" id="battleArea">
 					<h3>Battle Area</h3>
 					<div class="row">
 						<div class="col-md-4" id="player">
@@ -38,14 +47,18 @@
 						
 						</div>
 					</div>
-					<button type="button" class="btn btn-primary btn-lg btn-block" id="attack">Attack</button>
 				</div>
 			</div>
-		<div class="row">
-			<div class="col-md-6 col-md-offset-6" id="gameStatus">
-				
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 " id="buttonDiv">
+				<button type="button" class="btn btn-primary btn-lg btn-block" id="attack">Attack</button>	
+				</div>
 			</div>
-		</div>
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 pre-scrollable" id="gameStatus">
+
+				</div>
+			</div>
 		</div>
 	</body>
 </html>

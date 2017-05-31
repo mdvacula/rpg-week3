@@ -5,10 +5,12 @@
 
 #battleArea{
 	background: white;
+	border: solid red 1px;
 }
 
 #charSection{
 	background: white;
+	border: solid red 1px;
 	
 }
 
